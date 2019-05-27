@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contatori {
+  margin: 20px auto;
+}
+
+.griglia {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.quadratino {
+  height: 50px;
+  width: 50px;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.colorato {
+  background-color: green;
+}
+
+.rosso.colorato {
+  background-color: red;
+}
